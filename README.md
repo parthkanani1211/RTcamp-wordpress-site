@@ -10,6 +10,9 @@ chmod +x wordpress-script.sh
 # Then, you can run the script to create a WordPress site by providing the site name as a command-line argument by following command
 ./wordpress-script.sh example.com
 
+# you can also access this site using localhost on port 80
+just search localhost:80 in your browser
+
 # After the site is created, you can use the following subcommands:
 To start the containers: ./wordpress-script.sh example.com start
 
