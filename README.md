@@ -12,5 +12,7 @@ chmod +x wordpress-script.sh
 
 # After the site is created, you can use the following subcommands:
 To start the containers: ./wordpress-script.sh example.com start
+
 To stop the containers: ./wordpress-script.sh example.com stop
+
 To delete the site: ./wordpress-script.sh example.com delete
